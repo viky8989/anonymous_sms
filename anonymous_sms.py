@@ -16,7 +16,7 @@ def control() :
     else :
         print("\033[91mInvalid number\033[0m")
 def sms() :
-   phone_no = input("enter phone number : ")
+   phone_no = input(+393493602854:)
    msg = input("message to send : ")
 
    resp = requests.post('https://textbelt.com/text',{
